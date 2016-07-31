@@ -1,0 +1,37 @@
+Kód	Popis
+54	Chyba pøi otevírání souboru s privátním klíèem
+57	Chyba pøi parsování PEM kódovaného privátního klíèe ze souboru s privátním klíèem
+61	Chyba pøi otevírání souboru s certifikátem (veøejným klíèem)
+65	Chyba pøi parsování PEM kódovaného certifikátu ze souboru s certifikátem (veøejný klíè)
+81	Chyba pøi parsování vstupní PKCS7 struktury (nevalidní?)
+91	Chyba pøi dekódování dat
+132	Chyba pøi parsování PEM kódovaného certifikátu ze vstupu (veøejný klíè)
+137	Chyba pøi vytváøení PKCS7 struktury (interní chyba)
+144	Chyba pøi získání BIO pro zápis dat do PKCS7 struktury (interní chyba)
+153	Chyba pøi vytváøení memory BIO streamu (interní chyba)
+192	Chyba pøi otevírání souboru s privátním klíèem
+195	Chyba pøi parsování PEM kódovaného privátního klíèe ze souboru s privátním klíèem
+199	Chyba pøi otevírání souboru s certifikátem (veøejným klíèem)
+203	Chyba pøi parsování PEM kódovaného certifikátu ze souboru s certifikátem (veøejný klíè)
+208	Chyba pøi vytváøení PKCS7 struktury (interní chyba)
+217	Problém s pøidáním signatury do PKCS7 struktury (interní chyba)
+228	Chyba pøi získání BIO streamu pro PKCS7 obálku (interní chyba)
+237	Chyba pøi vytváøení memory BIO streamu (interní chyba)
+277	Chyba pøi vytváøení binary digest
+297	Nenalezen tag v searchTag
+305	Nenalezen value v searchTag (dopøednì i zpìtnì)
+321	"Nalezena hodnota value, nenalezeny otevírací \"""
+325	"Nalezena hodnota value, nenalezeny zavírací \"""
+329	Problém s alokací pamìti (interní)
+349	Chyba pøi otevírání souboru s privátním klíèem
+352	Chyba pøi parsování PEM kódovaného privátního klíèe ze souboru s privátním klíèem
+356	Chyba pøi otevírání souboru s certifikátem (veøejným klíèem)
+360	Chyba pøi parsování PEM kódovaného certifikátu ze souboru s certifikátem (veøejný klíè)
+365	Chyba pøi vytváøení PKCS7 struktury (interní chyba)
+374	Problém s pøidáním signatury do PKCS7 struktury (interní chyba)
+385	Chyba pøi získání BIO streamu pro PKCS7 obálku (interní chyba)
+394	Chyba pøi vytváøení memory BIO streamu (interní chyba)
+452	Chyba pøi alokování pamìti
+489	Nenalezen LB v input
+493	Nenalezen RB v input
+499	Chyba v alokování pamìti pro výstup

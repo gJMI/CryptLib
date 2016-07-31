@@ -1,0 +1,33 @@
+K¢d	Popis
+54	Chyba pýi otev¡r n¡ souboru s priv tn¡m kl¡Ÿem
+57	Chyba pýi parsov n¡ PEM k¢dovan‚ho priv tn¡ho kl¡Ÿe ze souboru s priv tn¡m kl¡Ÿem
+61	Chyba pýi otev¡r n¡ souboru s certifik tem (veýejnìm kl¡Ÿem)
+65	Chyba pýi parsov n¡ PEM k¢dovan‚ho certifik tu ze souboru s certifik tem (veýejnì kl¡Ÿ)
+81	Chyba pýi parsov n¡ vstupn¡ PKCS7 struktury (nevalidn¡?)
+91	Chyba pýi dek¢dov n¡ dat
+132	Chyba pýi parsov n¡ PEM k¢dovan‚ho certifik tu ze vstupu (veýejnì kl¡Ÿ)
+137	Chyba pýi vytv ýen¡ PKCS7 struktury (intern¡ chyba)
+144	Chyba pýi z¡sk n¡ BIO pro z pis dat do PKCS7 struktury (intern¡ chyba)
+153	Chyba pýi vytv ýen¡ memory BIO streamu (intern¡ chyba)
+192	Chyba pýi otev¡r n¡ souboru s priv tn¡m kl¡Ÿem
+195	Chyba pýi parsov n¡ PEM k¢dovan‚ho priv tn¡ho kl¡Ÿe ze souboru s priv tn¡m kl¡Ÿem
+199	Chyba pýi otev¡r n¡ souboru s certifik tem (veýejnìm kl¡Ÿem)
+203	Chyba pýi parsov n¡ PEM k¢dovan‚ho certifik tu ze souboru s certifik tem (veýejnì kl¡Ÿ)
+208	Chyba pýi vytv ýen¡ PKCS7 struktury (intern¡ chyba)
+217	Probl‚m s pýid n¡m signatury do PKCS7 struktury (intern¡ chyba)
+228	Chyba pýi z¡sk n¡ BIO streamu pro PKCS7 ob lku (intern¡ chyba)
+237	Chyba pýi vytv ýen¡ memory BIO streamu (intern¡ chyba)
+277	Chyba pýi vytv ýen¡ binary digest
+297	Nenalezen tag v searchTag
+305	Nenalezen value v searchTag (dopýednØ i zpØtnØ)
+321	Nalezena hodnota value, nenalezeny otev¡rac¡ \"
+325	Nalezena hodnota value, nenalezeny zav¡rac¡ \"
+329	Probl‚m s alokac¡ pamØti (intern¡)
+349	Chyba pýi otev¡r n¡ souboru s priv tn¡m kl¡Ÿem
+352	Chyba pýi parsov n¡ PEM k¢dovan‚ho priv tn¡ho kl¡Ÿe ze souboru s priv tn¡m kl¡Ÿem
+356	Chyba pýi otev¡r n¡ souboru s certifik tem (veýejnìm kl¡Ÿem)
+360	Chyba pýi parsov n¡ PEM k¢dovan‚ho certifik tu ze souboru s certifik tem (veýejnì kl¡Ÿ)
+365	Chyba pýi vytv ýen¡ PKCS7 struktury (intern¡ chyba)
+374	Probl‚m s pýid n¡m signatury do PKCS7 struktury (intern¡ chyba)
+385	Chyba pýi z¡sk n¡ BIO streamu pro PKCS7 ob lku (intern¡ chyba)
+394	Chyba pýi vytv ýen¡ memory BIO streamu (intern¡ chyba)

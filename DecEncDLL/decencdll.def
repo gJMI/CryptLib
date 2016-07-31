@@ -1,0 +1,12 @@
+LIBRARY      "DecEncDLL"
+
+EXPORTS
+  Encrypt
+  SignEncrypt
+  Decrypt
+  deallocCA
+  digestSHA1
+  searchTag
+  Sign
+  URLencode
+  findStr
