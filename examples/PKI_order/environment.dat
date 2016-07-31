@@ -1,0 +1,2 @@
+ServerURL,domain,DLLPath
+http://localhost:7001,localhost,C:\\\\DecEncDLL.dll

@@ -1,0 +1,131 @@
+/*
+  //searchTag(&output,"<input type=\"hidden\" name=\"_noJavaScript\" value=\"false\"><!--Start: org.apache.myfaces.trinidad.Form--><span id=\"tr_j_id31_Postscript\" value=\"XYCCCCC\"><input type=\"hidden\" value=\"H4sIAAAAAAAAAN1ae2wb9R3/2U36SEMfdCuFtsw4KQUttAHOJ=\" name=\"javax.faces.ViewState\" >","javax.faces.ViewState","value");
+  //printf("Output: %s\n",output);
+
+ //digestSHA1(&output,hello,strlen(hello));
+
+  buffer=(char*)malloc(128); // pro Value=
+  
+  strcpy(buffer,"7229431880"); //login
+  strcat(buffer,"aa123456"); //password
+
+  digestSHA1(&output,buffer,strlen(buffer));
+
+  strcpy(buffer,output);
+  strcat(buffer,"757d628b7e455746ee5fcb2e30b1a1fc72e1d9a3");
+
+  digestSHA1(&output,buffer,strlen(buffer));
+
+  strcpy(buffer,"Value=");
+  strcat(buffer,output);
+
+  deallocCA(&output);
+  
+  printf("Buffer: %s\n",buffer);
+
+//for(i=0;i<256;i++)
+//  printf("%i -- %02x\n",i,(unsigned char)i);
+  i=(int)strlen(hello);
+digestSHA1(&output,hello,i);
+ERR_print_errors_fp(stdout);
+  printf("Vystup: %s\n",output);
+
+
+  printf("\n");
+//  printf("\n");
+
+
+//**//
+
+/*
+  char challenge1[]="9203801204060040|";
+  char csascert[]="MIIDYjCCAkqgAwIBAgIDBA6/MA0GCSqGSIb3DQEBBQUAMEgxCzAJBgNVBAYTAkNa\nMSUwIwYDVQQDExxJLkNBIC0gVEVTVCByb290IGNlcnRpZmljYXRlMRIwEAYDVQQK\nEwlJLkNBIGEucy4wHhcNMDQwMjE5MTcxMjE5WhcNMDUwMjE4MTcxMjE5WjBTMQsw\nCQYDVQQGEwJDWjEPMA0GA1UEAxMGczI0ZW5jMQ0wCwYDVQQKEwRjc2FzMQ4wDAYD\nVQQLEwVjaWNpaTEUMBIGA1UEBRMLSUNBIC0gMTA5MDMwgZ8wDQYJKoZIhvcNAQEB\nBQADgY0AMIGJAoGBAKj1YbpII6/sWEKygbQlHy7Od2Nig/XbUHsCe96B+Pouy6Ey\nRyrxBgX8WxPPyiLD81FNhgnwMvnCaIuzDBmMpRDhodms2gg66d2M+6Pd685usnJG\n8STg/ZIG5Pz7HR4Y0pLnFHLrL55HspjrO0uClRZalO+6F9OslBQhgR0tf8NfAgMB\nAAGjgc0wgcowLQYDVR0fBCYwJDAioCCgHoYcaHR0cDovL3ZpY2EuaWNhLmN6L3Zz\naWNhLmNybDAfBgNVHSMEGDAWgBR3Vf809w0WZBwD5tN/mgq21RX8jjAdBgNVHQ4E\nFgQUQjuZmUYeqBOxTnASYVicoTsg3d4wTAYDVR0gBEUwQzBBBgsrBgEEAbNhAQEC\nATAyMDAGCCsGAQUFBwIBFiRodHRwOi8vd3d3LmljYS5jei9rY3AvY3BfaWNhXzEw\nNC5wZGYwCwYDVR0PBAQDAgTwMA0GCSqGSIb3DQEBBQUAA4IBAQCIxbPBNj9kK/rK\n0UvJyICaVrUlkWKdiPFxQF/dhpb9vOo05TmV0eh0itv8JPyHdoYlrL8MQ8ZhT3+1\npQyFko70kTD/t9P8MtPORtahDUJz92d2NoML+m64cc4Zfncci9CZpC6X+ZNSsMND\nVXwFVeruiNdpSydezpzJWM2tSGsZ1nzEQnx70QMolTGSAbyOW8QRwNxEgmWHB1UO\n3pq9e0+mYFniKC2px9miinuLyyvIg07seDiVY/aI4pRo1xHQKdYNimJtmMZRxH8d\n4jvjpSMAiqzqhW7B0qPKrHskIvOs0CjrX2hxtdFuxjqJMiO/YoJ7CUXffhgDQnlh\nLP0uPCsi";
+  char pki_content[]="cffvhidformid=ib_cnf_deb_poca_create&defaultbutton=sendbutton&TRANSACTION_TOKEN_IB=1239962673188&formattedaccount=accountnumber:54332#bankcode:800#accountcurrency:CZK#accounttype:M#contractid:30032668#passive:true#active:true#sign:true#trustee:true#cosigncount:0#cosignlimit:0.0#&pkisign=1&pkicontent=digest&pkispecialcontractid=30032668&id_recaccountnumber=123123&id_recbankcode=0100&id_amount=1&id_express=&id_accountingdate=26/04/2009&id_confsendemail=&id_confsendfax=&id_createtemplate=&id_advicefirstname=&id_advicelastname=&id_conffirstname=&id_conflastname=&bff=id_advicefirstname*Radislav|id_advicelastname*Dufek|id_conffirstname*Radislav|id_conflastname*Dufek|&bankcode=800&accountcurrency=CZK&accounttype=C&contractid=30032668&passive=true&active=true&sign=true&trustee=true&cosigncount=0&cosignlimit=0.0&formattedaccount=accountnumber:54332#bankcode:800#accountcurrency:CZK#accounttype:M#contractid:30032668#passive:true#active:true#sign:true#trustee:true#cosigncount:0#cosignlimit:0.0#&";
+  char csas[5000];
+*/
+
+
+/*
+
+
+  while(1)
+  {
+  printf("Bìh %d\n",x++);
+  output=(char*)DBGMALLOC(500);
+
+  genABO("123456",output,1);
+
+  
+  DBGFREE(output);
+  if(x==250000)break;
+  };
+  _CrtDumpMemoryLeaks(); 
+
+  return;
+
+  size=(int*)DBGMALLOC(sizeof(int));
+
+//init
+  init();
+
+//  _CrtSetBreakAlloc(63);
+/*
+//*****
+// Encrypt challenge
+  strcpy(csas,"-----BEGIN CERTIFICATE-----\n");
+  strcat(csas,csascert);
+  strcat(csas,"\n-----END CERTIFICATE-----");
+
+  *size=strlen(pki_content);
+  printf("Size of content: %i",*size);
+  SignEncrypt(&output,csas,certfile,keyfile,pki_content,*size);
+
+//*****
+*/
+while(1){printf("Bìh %d\n",x++); 
+
+// try to decrypt
+  
+//  x=strlen(encodedfile);
+//  *(size)=2176;//strlen(encodedfile);
+
+	*size=strlen("12345\n12345\n12345");
+    Decrypt(&output,certfile,keyfile,encodedfile,&size);
+    
+
+
+    
+//put data to file
+  f=fopen(outputfiledec,"wb+");
+  fwrite(output,sizeof(char),*size,f);
+  fclose(f);
+
+  
+//get data from file
+  f=fopen(inputfile,"rb");
+  fstat(fileno(f),&status); //lenght of file (?)
+  printf("Size of file is %d\n",status.st_size);
+  data=DBGMALLOC(sizeof(char)*status.st_size);
+  *size=fread(data,sizeof(char),status.st_size,f);
+  fclose(f);
+  //signencrypt
+
+  SignEncrypt(&output,servercertfile,certfile,keyfile,data,*size);
+    ERR_print_errors_fp(stderr);
+
+ DBGFREE(data);
+ 
+//put data to file (PEM encoded)
+  f=fopen(outputfileenc,"w");
+  fwrite(output,sizeof(char),strlen(output),f);
+  fclose(f);
+
+//end
+// DBGFREE(output);
+  deallocCA(&output);
+//  output=NULL;
+}
+DBGFREE(size);
+_CrtDumpMemoryLeaks();  
+*/
+return;

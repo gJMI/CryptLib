@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DecEncDLL">
+</Property><Property Name="Solution File" Value="c:\uziv\cen31465\Projects\CryptLibTest\DecEncDLL\DecEncDLL.sln">
+</Property><Property Name="Date" Value="23. června 2010">
+</Property><Property Name="Time" Value="22:29:31">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="DecEncWork" Source="..\DecEncWork\DecEncWork.vcproj" Description="Converting project file 'c:\uziv\cen31465\Projects\CryptLibTest\DecEncWork\DecEncWork.vcproj'.">
+</Event><Event ErrorLevel="1" Project="DecEncWork" Source="..\DecEncWork\DecEncWork.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="DecEncWork" Source="..\DecEncWork\DecEncWork.vcproj" Description="Done converting to new project file 'c:\uziv\cen31465\Projects\CryptLibTest\DecEncWork\DecEncWork.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="DecEncWork" Source="..\DecEncWork\DecEncWork.vcproj" Description="Converted">
+</Event></UpgradeLog>
